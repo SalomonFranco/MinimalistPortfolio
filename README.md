@@ -8,7 +8,7 @@
 
 Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+Blog - https://blog.jesicafranco.com/
 
 ### Features - 
 
@@ -47,7 +47,7 @@ Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextj
 
 Quickes way to deploy this repo - 
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/salomonfranco)
 
 
 ### How To Contribute - 
@@ -58,20 +58,6 @@ I would be very happy to review your PRs and all the awesome things that you can
 ### Tech Stack Used - 
 - Next.js
 - TailwindCSS
-
-
-### Thanks
-
-If you liked this portfolio template, don't forget to give it a ⭐.
-
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
-
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
-
 
 
 
