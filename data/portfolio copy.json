@@ -22,7 +22,7 @@
       "title": "Linkedin",
       "link": "https://www.linkedin.com/in/jesica-franco"
     },
-    { "id": "4", "title": "Blog", "link": "https://blog.jesicafranco.com/" },
+    { "id": "4", "title": "Blog", "link": "http://www.yeyafotografia.com/" },
     { "id": "5", "title": "Email", "link": "mailto:Jfdsfotografia@gmail.com" }
   ],
   "projects": [
@@ -31,42 +31,42 @@
       "title": "Kids Shooting",
       "description": "Fun, Playful & Spontaneous.",
       "imageSrc": "https://images.unsplash.com/photo-1695782316915-8b5c46769cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     },
     {
       "id": "2",
       "title": "Newborn Child Shooting",
       "description": "Calm, Gentle & Tender.",
       "imageSrc": "https://images.unsplash.com/photo-1695781622022-3994ad2272ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2786&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     },
     {
       "id": "3",
       "title": "Maternity Shooting",
       "description": "Expectant, Radiant & Captivating.",
       "imageSrc": "https://images.unsplash.com/photo-1695782144844-f49730c7f27e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     },
     {
       "id": "4",
       "title": "Family Shooting",
       "description": "Bonded, Joyful & Candid.",
       "imageSrc": "https://images.unsplash.com/photo-1695781830176-59dd4f2289c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2848&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     },
     {
       "id": "5",
       "title": "Pet Shooting",
       "description": "Playful, Natural & Relaxed.",
       "imageSrc": "https://images.unsplash.com/photo-1695782021256-8beb43e0fac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2711&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     },
     {
       "id": "6",
       "title": "Seasonal Shooting",
       "description": "Vibrant, Thematic & Cozy",
       "imageSrc": "https://images.unsplash.com/photo-1695783974225-6808ca0265a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
-      "url": "http://JesicaFranco.com/"
+      "url": "http://www.yeyafotografia.com/"
     }
   ],
   "services": [

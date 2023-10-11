@@ -1,6 +1,8 @@
-Blog - https://blog.jesicafranco.com/
+[View Live Site](https://www.yeyafotografia.com/)
 
-### Features - 
+![Screenshot of home page](/src/assets/screenshot.jpeg)
+
+### Features  
 
 - Modern Stack (Next.js + TailwindCSS)
 - Minimal Design
@@ -27,7 +29,7 @@ Blog - https://blog.jesicafranco.com/
 - `yarn dev`
 
 
-### How To Deploy - 
+### How To Deploy  
 
 - There are many ways to Deploy this repo.
 - here we are gonna use netlify
@@ -48,6 +50,10 @@ I would be very happy to review your PRs and all the awesome things that you can
 ### Tech Stack Used - 
 - Next.js
 - TailwindCSS
+
+## Screenshot of Project
+
+![Screenshot of the entire page](/src/assets/fullsizescreenshot.jpeg)
 
 
 
