@@ -1,15 +1,15 @@
 {
-  "name": "Jesica",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Jesica Franco",
-  "headerTaglineThree": "photographer",
-  "headerTaglineFour": " based in Porto, Portugal",
+  "name": "Creating Ties",
+  "headerTaglineOne": "DISCOVER THE BEAUTY",
+  "headerTaglineTwo": "OF LATIN AMERICA",
+  "headerTaglineThree": ":",
+  "headerTaglineFour": ":",
   "showBlog": true,
   "darkMode": true,
   "socials": [
     {
       "id": "1",
-      "title": "Instagram",
+      "title": "Email",
       "link": "https://instagram.com/yeyafotografia"
     },
     {
