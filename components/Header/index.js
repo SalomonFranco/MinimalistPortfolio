@@ -75,36 +75,101 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:Jfdsfotografia@gmail.com")
-                      }
-                    >
-                      Resume
-                    </Button>
+                    <div className="relative">
+                      <Popover className="block">
+                        {({ open }) => (
+                          <>
+                            <Popover.Button className="w-full text-left">
+                              <Button>USA to LATIN AMERICA</Button>
+                            </Popover.Button>
+                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
+                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                              Registration Form  
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Terms and conditions
+                              </Button>
+                              <Button onClick={() => window.open("/resume4.pdf")}>
+                              Program agreement
+                              </Button>
+                              <Button onClick={() => window.open("/resume5.pdf")}>
+                              Student Behavior guidelines
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Responsability Disclaimers
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Peru
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Cuba
+                              </Button>
+                            </Popover.Panel>
+                          </>
+                        )}
+                      </Popover>
+                    </div>
                   )}
-
+                  
                   <Button
-                    onClick={() => window.open("mailto:Jfdsfotografia@gmail.com")}
+                    onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
                     Contact
                   </Button>
                 </div>
               ) : (
                 <div className="grid grid-cols-1">
-                  <Button onClick={() => router.push("/")} classes="first:ml-1">
-                    Home
-                  </Button>
+                  <Button onClick={() => router.push("/")}>Home</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>Blog</Button>
                   )}
                   {showResume && (
-                    <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
-                    >
-                      Resume
-                    </Button>
+                    <div className="relative">
+                      <Popover className="block">
+                        {({ open }) => (
+                          <>
+                            <Popover.Button className="w-full text-left">
+                              <Button>USA to LATIN AMERICA</Button>
+                            </Popover.Button>
+                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-white shadow-lg rounded-md">
+                              <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                              Registration Form  
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Terms and conditions
+                              </Button>
+                              <Button onClick={() => window.open("/resume4.pdf")}>
+                              Program agreement
+                              </Button>
+                              <Button onClick={() => window.open("/resume5.pdf")}>
+                              Student Behavior guidelines
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Responsability Disclaimers
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Peru
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Cuba
+                              </Button>
+                            </Popover.Panel>
+                          </>
+                        )}
+                      </Popover>
+                    </div>
                   )}
 
                   <Button
@@ -137,17 +202,52 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
             {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
+              <div className="relative">
+                <Popover className="block">
+                  {({ open }) => (
+                    <>
+                      <Popover.Button className="w-full text-left">
+                        <Button>USA to LATIN AMERICA</Button>
+                      </Popover.Button>
+                      <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
+                      <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                              Registration Form  
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Terms and conditions
+                              </Button>
+                              <Button onClick={() => window.open("/resume4.pdf")}>
+                              Program agreement
+                              </Button>
+                              <Button onClick={() => window.open("/resume5.pdf")}>
+                              Student Behavior guidelines
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Responsability Disclaimers
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Peru
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Cuba
+                              </Button>
+                      </Popover.Panel>
+                    </>
+                  )}
+                </Popover>
+              </div>
             )}
 
             <Button onClick={() => window.open("mailto:Jfdsfotografia@gmail.com")}>
               Contact
             </Button>
+
             {mounted && theme && data.darkMode && (
               <Button
                 onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
@@ -166,12 +266,46 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               <Button onClick={() => router.push("/blog")}>Blog</Button>
             )}
             {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
+              <div className="relative">
+                <Popover className="block">
+                  {({ open }) => (
+                    <>
+                      <Popover.Button className="w-full text-left">
+                        <Button>USA to LATIN AMERICA</Button>
+                      </Popover.Button>
+                      <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
+                      <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                              Registration Form  
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Terms and conditions
+                              </Button>
+                              <Button onClick={() => window.open("/resume4.pdf")}>
+                              Program agreement
+                              </Button>
+                              <Button onClick={() => window.open("/resume5.pdf")}>
+                              Student Behavior guidelines
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Medical Form
+                              </Button>
+                              <Button onClick={() => window.open("/resume3.pdf")}>
+                              Responsability Disclaimers
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Peru
+                              </Button>
+                              <Button onClick={() => window.open("/resume2.pdf")}>
+                              Things to bring to Cuba
+                              </Button>
+                      </Popover.Panel>
+                    </>
+                  )}
+                </Popover>
+              </div>
             )}
 
             <Button onClick={() => window.open("mailto:Jfdsfotografia@gmail.com")}>
@@ -184,7 +318,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`/images /${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
