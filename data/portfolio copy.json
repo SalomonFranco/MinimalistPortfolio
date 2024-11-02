@@ -53,20 +53,6 @@
       "description": "Community Service",
       "imageSrc": "https://images.unsplash.com/photo-1700540564540-1352bbd3b165?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "url": ""
-    },
-    {
-      "id": "5",
-      "title": "Pet Shooting",
-      "description": "Playful, Natural & Relaxed.",
-      "imageSrc": "https://images.unsplash.com/photo-1695782021256-8beb43e0fac8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2711&q=80",
-      "url": "http://www.yeyafotografia.com/"
-    },
-    {
-      "id": "6",
-      "title": "Seasonal Shooting",
-      "description": "Vibrant, Thematic & Cozy",
-      "imageSrc": "https://images.unsplash.com/photo-1695783974225-6808ca0265a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
-      "url": "http://www.yeyafotografia.com/"
     }
   ],
   "services": [
