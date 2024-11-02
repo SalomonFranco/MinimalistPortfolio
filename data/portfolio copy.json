@@ -1,58 +1,58 @@
 {
   "name": "Creating Ties",
-  "headerTaglineOne": "DISCOVER THE BEAUTY",
+  "headerTaglineOne": "DISCOVER THE BEAUTY ",
   "headerTaglineTwo": "OF LATIN AMERICA",
-  "headerTaglineThree": ":",
-  "headerTaglineFour": ":",
+  "headerTaglineThree": " ",
+  "headerTaglineFour": " ",
+  "showCursor": true,
   "showBlog": true,
   "darkMode": true,
+  "showResume": true,
   "socials": [
     {
       "id": "1",
-      "title": "Email",
-      "link": "https://instagram.com/yeyafotografia"
+      "title": "Phone Number",
+      "link": "(+1) 609 665 0231"
     },
     {
       "id": "2",
-      "title": "Facebook",
-      "link": "https://www.facebook.com/people/Yeya-fotografia/100079572972736/"
+      "title": "Email",
+      "link": "martha235@aol.com"
     },
     {
-      "id": "3",
-      "title": "Linkedin",
-      "link": "https://www.linkedin.com/in/jesica-franco"
-    },
-    { "id": "4", "title": "Blog", "link": "http://www.yeyafotografia.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:Jfdsfotografia@gmail.com" }
+      "id": "4",
+      "title": "Email",
+      "link": "martha.creatingties@gmail.com"
+    }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Kids Shooting",
-      "description": "Fun, Playful & Spontaneous.",
-      "imageSrc": "https://images.unsplash.com/photo-1695782316915-8b5c46769cf3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-      "url": "http://www.yeyafotografia.com/"
+      "title": "Peru",
+      "description": "Educational Tours, Community service, Homestays with schools (exchange), community service & homestays.",
+      "imageSrc": "https://images.unsplash.com/photo-1465513527097-544020a68b06?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "url": ""
     },
     {
       "id": "2",
-      "title": "Couple Shooting",
-      "description": "Calm, Gentle & Tender.",
-      "imageSrc": "https://images.unsplash.com/photo-1695781631858-14b3df6cd251?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "url": "http://www.yeyafotografia.com/"
+      "title": "Cuba",
+      "description": "Educational Tours",
+      "imageSrc": "https://images.unsplash.com/photo-1530779443780-7499d18b7e66?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "url": ""
     },
     {
       "id": "3",
-      "title": "Maternity Shooting",
-      "description": "Expectant, Radiant & Captivating.",
-      "imageSrc": "https://images.unsplash.com/photo-1695782144844-f49730c7f27e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80",
-      "url": "http://www.yeyafotografia.com/"
+      "title": "Spain",
+      "description": "Educational Tours, Summer Camps & Sports camps.",
+      "imageSrc": "https://images.unsplash.com/photo-1558642084-fd07fae5282e?q=80&w=2836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "url": ""
     },
     {
       "id": "4",
-      "title": "Family Shooting",
-      "description": "Bonded, Joyful & Candid.",
-      "imageSrc": "https://images.unsplash.com/photo-1695781830176-59dd4f2289c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2848&q=80",
-      "url": "http://www.yeyafotografia.com/"
+      "title": "Guatemala",
+      "description": "Community Service",
+      "imageSrc": "https://images.unsplash.com/photo-1700540564540-1352bbd3b165?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "url": ""
     },
     {
       "id": "5",
@@ -72,57 +72,52 @@
   "services": [
     {
       "id": "1",
-      "title": "Event Photographer",
-      "description": "Capturing Memorable Moments"
+      "title": "Student Nº 1",
+      "description": "Nice trip to Latin America"
     },
     {
       "id": "2",
-      "title": "Photojournalist",
-      "description": "Documenting Reality, Shaping Perspective"
+      "title": "Student Nº 2",
+      "description": "Nice trip to Cuba"
     },
     {
       "id": "3",
-      "title": "Portrait Photographer",
-      "description": "Your Online Image Crafted to Perfection"
+      "title": "Student Nº 3",
+      "description": "Amazing experience"
     },
     {
       "id": "4",
-      "title": "Fashion Photographer",
-      "description": "Elevating Your Brand Aesthetics"
+      "title": "Student Nº 4",
+      "description": "It was a great experience in overall"
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "I'm Martha Hayden \nPresident and Founder \nCreating Ties US \n1403 Barclay Boulevard\nPrinceton, New Jersey 08540\nemail: martha.creatingties@gmail.com\nCell: 609-665-0231\n",
   "resume": {
-    "tagline": "👋  I'm a photographer.",
-    "description": "Photographs of newborn/baby/family/anniversary/and others An art enthusiast with a background in business administration and marketing, looking to grow in the world of digital media. Passionate to explore the mixture of photography and business in a global context.",
+    "tagline": "",
+    "description": "",
     "experiences": [
       {
         "id": "1",
-        "dates": "2020 - Present",
-        "type": "Full Time",
-        "position": "Sales Team Lead",
-        "bullets": [
-          "Intuit LATAM Sales Project. Lead and supervise sales agents and runs the day-to-day sales operations of a business. Sales strategy",
-          "set sales goals and track sales performance."
-        ]
+        "dates": "Educational Tours",
+        "type": "",
+        "position": "Latin america",
+        "bullets": ""
       },
       {
-        "id": "2",
-        "dates": "2018 - 2020",
-        "type": "Full Time",
-        "position": "Senior Customer Service Associate",
-        "bullets": ["Customer service representatives answer questions and resolve problems. When a customer calls and has an issue that needs to be handled", 
-        "a representative will usually open the customer’s file in the company’s computer system. Representatives use this information to solve problems and may also make changes to customer accounts", 
-        "such as to update an address on file or cancel an order."]
+        "id": "Community service",
+        "dates": "The community service..",
+        "type": "",
+        "position": "Latin America",
+        "bullets": ""
       }
     ],
     "education": {
-      "universityName": "Roberto Mata Photography",
-      "universityDate": "2018",
-      "universityPara": "Digital I & Digital II"
+      "universityName": "Homestays",
+      "universityDate": "",
+      "universityPara": "Homestays with schools"
     },
-    "languages": ["Spanish", "English", "Portuguese"],
-    "frameworks": [""],
-    "others": ["Lightroom", "Photoshop"]
+    "languages": [
+      ":"
+    ]
   }
 }
