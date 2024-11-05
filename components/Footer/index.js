@@ -8,18 +8,18 @@ const Footer = ({}) => {
     <>
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
-          <h1 className="text-2xl text-bold">Contact.</h1>
+          <h1 className="text-2xl text-bold">Martha Hayden</h1>
           <div className="mt-10">
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              Creating Ties
+            <h1 className="text-2xl tablet:text-2xl laptop:text-2xl laptopl:text-3xl text-bold">
+              President and Founder
             </h1>
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              Martha Hayden
+            <h1 className="text-2xl tablet:text-2xl laptop:text-2xl laptopl:text-3xl text-bold">
+              Creating Ties US
             </h1>
             <Button
-                  type="primary"  onClick={() => window.open("mailto:Jfdsfotografia@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
-              Schedule a call
+              Contact us
             </Button>
             <div className="mt-10">
               <Socials />
