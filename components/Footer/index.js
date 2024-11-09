@@ -8,24 +8,27 @@ const Footer = ({}) => {
     <>
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
-          <h1 className="text-2xl text-bold">Martha Hayden</h1>
           <div className="mt-10">
-            <h1 className="text-2xl tablet:text-2xl laptop:text-2xl laptopl:text-3xl text-bold">
+          <h1 className="text-2xl text-bold">Martha Hayden</h1>
+            <h1 className="text-1m tablet:text-1m laptop:text-1m laptopl:text-1m text-bold">
               President and Founder
             </h1>
-            <h1 className="text-2xl tablet:text-2xl laptop:text-2xl laptopl:text-3xl text-bold">
+            <h1 className="text-1m tablet:text-1m laptop:text-1m laptopl:text-1m text-bold">
               Creating Ties US
             </h1>
             <Button
                   type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
-              Contact us
+              Get in touch
             </Button>
             <div className="mt-10">
-              <Socials />
+            1403 Barclay Boulevard
             </div>
-          </div>
+            Princeton, New Jersey 08540
+            </div>
+          Cell: 609-665-0231
         </div>
+        <Socials />
       </div>
       <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
         Made with ❤ by{" "}

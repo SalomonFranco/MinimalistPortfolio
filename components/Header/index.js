@@ -80,20 +80,20 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             </Popover.Button>
                             <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                              Peru 
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Cuba
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Spain
-                              </Button>
-                              <Button onClick={() => window.open("/resume4.pdf")}>
-                              Guatemala
-                              </Button>
-                            </Popover.Panel>
-                          </>
-                        )}
+                            Peru 
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Cuba
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Spain
+                            </Button>
+                            <Button onClick={() => window.open("/resume4.pdf")}>
+                            Guatemala
+                            </Button>
+                          </Popover.Panel>
+                        </>
+                      )}
                       </Popover>
                     </div>
                   )}
@@ -106,7 +106,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         {({ open }) => (
                           <>
                             <Popover.Button className="w-full text-left">
-                              <Button>USA to LATIN AMERICA</Button>
+                              <Button>Travel Form US to Latin America</Button>
                             </Popover.Button>
                             <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -148,7 +148,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                           {({ open }) => (
                             <>
                               <Popover.Button className="w-full text-left">
-                                <Button>Latin America to US</Button>
+                              <Button>Travel Form Latin America to US</Button>
                               </Popover.Button>
                               <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                               <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -235,7 +235,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         {({ open }) => (
                           <>
                             <Popover.Button className="w-full text-left">
-                              <Button>USA to LATIN AMERICA</Button>
+                              <Button>Travel Form US to Latin America</Button>
                             </Popover.Button>
                             <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -277,7 +277,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                           {({ open }) => (
                             <>
                               <Popover.Button className="w-full text-left">
-                                <Button>Latin America to US</Button>
+                              <Button>Travel Form Latin America to US</Button>
                               </Popover.Button>
                               <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                               <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -380,7 +380,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         {({ open }) => (
                           <>
                             <Popover.Button className="w-full text-left">
-                              <Button>USA to LATIN AMERICA</Button>
+                            <Button>Travel Form US to Latin America</Button>
                             </Popover.Button>
                             <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -422,7 +422,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                           {({ open }) => (
                             <>
                               <Popover.Button className="w-full text-left">
-                                <Button>Latin America to US</Button>
+                              <Button>Travel Form Latin America to US</Button>
                               </Popover.Button>
                               <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                               <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -520,7 +520,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         {({ open }) => (
                           <>
                             <Popover.Button className="w-full text-left">
-                              <Button>USA to LATIN AMERICA</Button>
+                            <Button>Travel Form US to Latin America</Button>
                             </Popover.Button>
                             <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
@@ -562,7 +562,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                           {({ open }) => (
                             <>
                               <Popover.Button className="w-full text-left">
-                                <Button>Latin America to US</Button>
+                              <Button>Travel Form Latin America to US</Button>
                               </Popover.Button>
                               <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
                               <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>

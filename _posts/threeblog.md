@@ -1,5 +1,5 @@
 ---
-date: "2022-07-08T11:50:54.000Z"
+date: '2022-07-08T11:50:54.000Z'
 title: Three Blog
 tagline: This is a Tagline If you want to add.
 preview: >-
@@ -8,7 +8,7 @@ preview: >-
   when an unknown printer took a galley of type and scrambled it to make a type
   specimen book.
 image: >-
-  https://images.unsplash.com/photo-1640017955477-75b58521007d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80
+  https://images.unsplash.com/photo-1527563427650-2fa0b1558cba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHNjaG9vbCUyMGtpZHMlMjB0cmlwfGVufDB8MHwwfHx8Mg%3D%3D
 ---
 
 # Heading One
