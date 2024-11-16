@@ -3,6 +3,7 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
+import logo from '/workspaces/MinimalistPortfolio/public/images/logo.png';
 // Local Data
 import data from "../../data/portfolio.json";
 
@@ -22,30 +23,31 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       <Popover className="block tablet:hidden mt-5">
         {({ open }) => (
           <>
-            <div className="flex items-center justify-between p-2 laptop:p-0">
-              <h1
-                onClick={() => router.push("/")}
-                className="font-medium p-2 laptop:p-0 link"
-              >
-                {name}.
-              </h1>
-
-              <div className="flex items-center">
-                {data.darkMode && (
-                  <Button
-                    onClick={() =>
-                      setTheme(theme === "dark" ? "light" : "dark")
-                    }
+            <div className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 laptop:p-0 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"} shadow-md`}>
+                <div className="flex items-center">
+                  <img
+                    src={logo} // Use the imported logo
+                    alt="Logo" // Provide an alt text for accessibility
+                    className="h-8 mr-2" // Adjust height and margin as necessary
+                  />
+                  <h1
+                    onClick={() => router.push("/")}
+                    className="font-medium text-xl laptop:text-2xl link" // Adjust font size as needed
                   >
-                    <img
-                      className="h-6"
-                      src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
-                      }`}
-                    ></img>
-                  </Button>
+                    {name}.
+                  </h1>
+                </div>
+                {/* Other navigation elements can go here */}
+                <div className="flex items-center">
+                  {mounted && (
+                    <Button onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>
+                      <img
+                        className="h-6"
+                        src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                        alt="Toggle Theme"
+                      />
+                    </Button>
                 )}
-
                 <Popover.Button>
                   <img
                     className="h-5"
@@ -254,18 +256,21 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             </Popover.Panel>
           </>
         )}
-      </Popover>
-      <div
-        className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
-        } dark:text-white top-0 z-10 tablet:flex`}
-      >
+      </Popover> 
+      <div className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 laptop:p-0 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"} shadow-md`}>
+      <div className="flex items-center">
+        <img
+          src={logo} // Use the imported logo
+          alt="Logo" // Provide an alt text for accessibility
+          className="h-8 mr-2" // Adjust height and margin as necessary
+        />
         <h1
           onClick={() => router.push("/")}
-          className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+          className="font-medium text-xl laptop:text-2xl link" // Adjust font size as needed
         >
           {name}.
         </h1>
+      </div>
         {!isBlog ? (
           <div className="flex">
             <Button onClick={handleAboutScroll}>About</Button>
