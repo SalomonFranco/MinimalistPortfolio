@@ -1,12 +1,8 @@
 ---
 date: '2022-07-08T11:50:54.000Z'
-title: Second Blog
+title: Album of photos - Class 2025
 tagline: This is a Tagline If you want to add.
-preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book.
+preview: Album of photos
 image: >-
   https://plus.unsplash.com/premium_photo-1665972562901-475122c6f879?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxraWRzJTIwb24lMjBob2xpZGF5fGVufDB8MHwwfHx8MA%3D%3D
 ---
