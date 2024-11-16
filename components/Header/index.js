@@ -23,14 +23,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         {({ open }) => (
           <>
             <div className="flex items-center justify-between p-2 laptop:p-0">
-              <h1>
-              {logo}
-              </h1>
               <h1
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
-              > 
-                {name}.
+              >
+              {name}.
               </h1>
 
               <div className="flex items-center">
