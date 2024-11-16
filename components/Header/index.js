@@ -27,7 +27,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 onClick={() => router.push("/")}
                 className="font-medium p-2 laptop:p-0 link"
               >
-              {name}.
+                {name}.
               </h1>
 
               <div className="flex items-center">
@@ -78,7 +78,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Button className="w-full text-left">
                               <Button>Programs</Button>
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
+                            <Popover.Panel className={`absolute start-0 z-10 w-48 p-2 ${
+                              theme === "dark" ? "bg-slate-800" : "bg-white"
+                            } shadow-lg rounded-md`}>
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                             Peru 
                             </Button>
@@ -106,84 +108,45 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                         {({ open }) => (
                           <>
                             <Popover.Button className="w-full text-left">
-                              <Button>Travel Form US to Latin America</Button>
+                            <Button>Travel Forms (🇺🇸 to Latin America)</Button>                            
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
+                            <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
+                                theme === "dark" ? "bg-slate-800" : "bg-white"
+                              } shadow-md rounded-md`}
+                            >                            
                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                              Registration Form  
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Terms and conditions
-                              </Button>
-                              <Button onClick={() => window.open("/resume4.pdf")}>
-                              Program agreement
-                              </Button>
-                              <Button onClick={() => window.open("/resume5.pdf")}>
-                              Student Behavior guidelines
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Responsability Disclaimers
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Peru
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Cuba
-                              </Button>
+                            Registration Form  
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Terms and conditions
+                            </Button>
+                            <Button onClick={() => window.open("/resume4.pdf")}>
+                            Program agreement
+                            </Button>
+                            <Button onClick={() => window.open("/resume5.pdf")}>
+                            Student Behavior guidelines
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Responsability Disclaimers
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Peru
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Cuba
+                            </Button>
                             </Popover.Panel>
                           </>
                         )}
                       </Popover>
                     </div>
                   )}
-                  {showResume && (
-                      <div className="relative">
-                        <Popover className="block">
-                          {({ open }) => (
-                            <>
-                              <Popover.Button className="w-full text-left">
-                              <Button>Travel Form Latin America to US</Button>
-                              </Popover.Button>
-                              <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                              <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                                      Formularios de inscripción 
-                                      </Button>
-                                      <Button onClick={() => window.open("/")}>
-                                      Formularios médicos
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      Contrato de términos de viaje y condiciones
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume4.pdf")}>
-                                      Contrato de acuerdo al programa
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume5.pdf")}>
-                                      Guía de comportamiento
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Exoneración de responsabilidad
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      ¿Qué necesitas para viajar a EEUU?
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viaje para las aerolineas
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viajes dentro de los EEUU
-                                      </Button>
-                                    </Popover.Panel>
-                                  </>
-                                )}
-                              </Popover>
-                          </div>
-                          )}
                   <Button
                     onClick={() => window.open("https://starrtravelinsurance.com/?agentcode=7119")}
                   >
@@ -207,8 +170,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Button className="w-full text-left">
                               <Button>Programs</Button>
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            <Popover.Panel className={`absolute start-0 z-10 w-48 p-2 ${
+                              theme === "dark" ? "bg-slate-800" : "bg-white"
+                            } shadow-lg rounded-md`}>                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                               Peru 
                               </Button>
                               <Button onClick={() => window.open("/resume2.pdf")}>
@@ -234,85 +198,46 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       <Popover className="block">
                         {({ open }) => (
                           <>
+                            
                             <Popover.Button className="w-full text-left">
-                              <Button>Travel Form US to Latin America</Button>
+                            <Button>Travel Forms (🇺🇸 to Latin America)</Button>                            
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                              Registration Form  
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Terms and conditions
-                              </Button>
-                              <Button onClick={() => window.open("/resume4.pdf")}>
-                              Program agreement
-                              </Button>
-                              <Button onClick={() => window.open("/resume5.pdf")}>
-                              Student Behavior guidelines
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Responsability Disclaimers
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Peru
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Cuba
-                              </Button>
+                            <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
+                                theme === "dark" ? "bg-slate-800" : "bg-white"
+                              } shadow-md rounded-md`}
+                            >                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            Registration Form  
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Terms and conditions
+                            </Button>
+                            <Button onClick={() => window.open("/resume4.pdf")}>
+                            Program agreement
+                            </Button>
+                            <Button onClick={() => window.open("/resume5.pdf")}>
+                            Student Behavior guidelines
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Responsability Disclaimers
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Peru
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Cuba
+                            </Button>
                             </Popover.Panel>
                           </>
                         )}
                       </Popover>
                     </div>
                   )}
-                  {showResume && (
-                      <div className="relative">
-                        <Popover className="block">
-                          {({ open }) => (
-                            <>
-                              <Popover.Button className="w-full text-left">
-                              <Button>Travel Form Latin America to US</Button>
-                              </Popover.Button>
-                              <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                              <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                                      Formularios de inscripción 
-                                      </Button>
-                                      <Button onClick={() => window.open("/")}>
-                                      Formularios médicos
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      Contrato de términos de viaje y condiciones
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume4.pdf")}>
-                                      Contrato de acuerdo al programa
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume5.pdf")}>
-                                      Guía de comportamiento
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Exoneración de responsabilidad
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      ¿Qué necesitas para viajar a EEUU?
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viaje para las aerolineas
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viajes dentro de los EEUU
-                                      </Button>
-                                    </Popover.Panel>
-                                  </>
-                                )}
-                              </Popover>
-                          </div>
-                          )}
                   <Button
                     onClick={() => window.open("https://starrtravelinsurance.com/?agentcode=7119")}
                   >
@@ -352,8 +277,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Button className="w-full text-left">
                               <Button>Programs</Button>
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            <Popover.Panel className={`absolute start-0 z-10 w-48 p-2 ${
+                              theme === "dark" ? "bg-slate-800" : "bg-white"
+                            } shadow-lg rounded-md`}>                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                               Peru 
                               </Button>
                               <Button onClick={() => window.open("/resume2.pdf")}>
@@ -379,85 +305,46 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       <Popover className="block">
                         {({ open }) => (
                           <>
+                            
                             <Popover.Button className="w-full text-left">
-                            <Button>Travel Form US to Latin America</Button>
+                            <Button>Travel Forms (🇺🇸 to Latin America)</Button>                            
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                              Registration Form  
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Terms and conditions
-                              </Button>
-                              <Button onClick={() => window.open("/resume4.pdf")}>
-                              Program agreement
-                              </Button>
-                              <Button onClick={() => window.open("/resume5.pdf")}>
-                              Student Behavior guidelines
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Responsability Disclaimers
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Peru
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Cuba
-                              </Button>
+                            <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
+                                theme === "dark" ? "bg-slate-800" : "bg-white"
+                              } shadow-md rounded-md`}
+                            >                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            Registration Form  
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Terms and conditions
+                            </Button>
+                            <Button onClick={() => window.open("/resume4.pdf")}>
+                            Program agreement
+                            </Button>
+                            <Button onClick={() => window.open("/resume5.pdf")}>
+                            Student Behavior guidelines
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Responsability Disclaimers
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Peru
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Cuba
+                            </Button>
                             </Popover.Panel>
                           </>
                         )}
                       </Popover>
                     </div>
                   )}
-                  {showResume && (
-                      <div className="relative">
-                        <Popover className="block">
-                          {({ open }) => (
-                            <>
-                              <Popover.Button className="w-full text-left">
-                              <Button>Travel Form Latin America to US</Button>
-                              </Popover.Button>
-                              <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                              <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                                      Formularios de inscripción 
-                                      </Button>
-                                      <Button onClick={() => window.open("/")}>
-                                      Formularios médicos
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      Contrato de términos de viaje y condiciones
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume4.pdf")}>
-                                      Contrato de acuerdo al programa
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume5.pdf")}>
-                                      Guía de comportamiento
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Exoneración de responsabilidad
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      ¿Qué necesitas para viajar a EEUU?
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viaje para las aerolineas
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viajes dentro de los EEUU
-                                      </Button>
-                                    </Popover.Panel>
-                                  </>
-                                )}
-                              </Popover>
-                          </div>
-                          )}
                   <Button
                     onClick={() => window.open("https://starrtravelinsurance.com/?agentcode=7119")}
                   >
@@ -492,8 +379,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Button className="w-full text-left">
                               <Button>Programs</Button>
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            <Popover.Panel className={`absolute start-0 z-10 w-48 p-2 ${
+                              theme === "dark" ? "bg-slate-800" : "bg-white"
+                            } shadow-lg rounded-md`}>                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                               Peru 
                               </Button>
                               <Button onClick={() => window.open("/resume2.pdf")}>
@@ -519,85 +407,46 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       <Popover className="block">
                         {({ open }) => (
                           <>
+                            
                             <Popover.Button className="w-full text-left">
-                            <Button>Travel Form US to Latin America</Button>
+                            <Button>Travel Forms (🇺🇸 to Latin America)</Button>                            
                             </Popover.Button>
-                            <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                              Registration Form  
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Terms and conditions
-                              </Button>
-                              <Button onClick={() => window.open("/resume4.pdf")}>
-                              Program agreement
-                              </Button>
-                              <Button onClick={() => window.open("/resume5.pdf")}>
-                              Student Behavior guidelines
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Medical Form
-                              </Button>
-                              <Button onClick={() => window.open("/resume3.pdf")}>
-                              Responsability Disclaimers
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Peru
-                              </Button>
-                              <Button onClick={() => window.open("/resume2.pdf")}>
-                              Things to bring to Cuba
-                              </Button>
+                            <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
+                                theme === "dark" ? "bg-slate-800" : "bg-white"
+                              } shadow-md rounded-md`}
+                            >                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            Registration Form  
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Terms and conditions
+                            </Button>
+                            <Button onClick={() => window.open("/resume4.pdf")}>
+                            Program agreement
+                            </Button>
+                            <Button onClick={() => window.open("/resume5.pdf")}>
+                            Student Behavior guidelines
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Medical Form
+                            </Button>
+                            <Button onClick={() => window.open("/resume3.pdf")}>
+                            Responsability Disclaimers
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Peru
+                            </Button>
+                            <Button onClick={() => window.open("/resume2.pdf")}>
+                            Things to bring to Cuba
+                            </Button>
                             </Popover.Panel>
                           </>
                         )}
                       </Popover>
                     </div>
                   )}
-                  {showResume && (
-                      <div className="relative">
-                        <Popover className="block">
-                          {({ open }) => (
-                            <>
-                              <Popover.Button className="w-full text-left">
-                              <Button>Travel Form Latin America to US</Button>
-                              </Popover.Button>
-                              <Popover.Panel className="absolute left-0 z-10 w-48 p-2 bg-black shadow-lg rounded-md">
-                              <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
-                                      Formularios de inscripción 
-                                      </Button>
-                                      <Button onClick={() => window.open("/")}>
-                                      Formularios médicos
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      Contrato de términos de viaje y condiciones
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume4.pdf")}>
-                                      Contrato de acuerdo al programa
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume5.pdf")}>
-                                      Guía de comportamiento
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Exoneración de responsabilidad
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume3.pdf")}>
-                                      ¿Qué necesitas para viajar a EEUU?
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viaje para las aerolineas
-                                      </Button>
-                                      <Button onClick={() => window.open("/resume2.pdf")}>
-                                      Permisos de viajes dentro de los EEUU
-                                      </Button>
-                                    </Popover.Panel>
-                                  </>
-                                )}
-                              </Popover>
-                          </div>
-                          )}
                   <Button
                     onClick={() => window.open("https://starrtravelinsurance.com/?agentcode=7119")}
                   >
