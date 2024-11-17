@@ -2,7 +2,13 @@
 date: '2022-07-15T11:50:54.000Z'
 title: Class of 2023 - Photo Album
 tagline: 'Photo Album '
-preview: ''
+preview: >-
+  In spring 2023, we explored Peru’s wonders—Machu Picchu, Cusco, and the
+  vibrant Andean culture—while creating unforgettable memories. This trip
+  brought us closer as friends, capturing laughter and adventure along the way.
+
+
+  Here’s a glimpse into the journey that defined our year!
 image: >-
   https://images.unsplash.com/photo-1462536943532-57a629f6cc60?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---

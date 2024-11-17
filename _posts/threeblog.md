@@ -2,7 +2,13 @@
 date: '2022-07-08T11:50:54.000Z'
 title: Class of 2028 - Photo Album
 tagline: This is a Tagline If you want to add.
-preview: Photos and links.
+preview: >-
+  In spring 2028, we explored Peru’s wonders—Machu Picchu, Cusco, and the
+  vibrant Andean culture—while creating unforgettable memories. This trip
+  brought us closer as friends, capturing laughter and adventure along the way.
+
+
+  Here’s a glimpse into the journey that defined our year!
 image: >-
   https://images.unsplash.com/photo-1527563427650-2fa0b1558cba?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHNjaG9vbCUyMGtpZHMlMjB0cmlwfGVufDB8MHwwfHx8Mg%3D%3D
 ---

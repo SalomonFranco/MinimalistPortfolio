@@ -26,9 +26,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             <div className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 laptop:p-0 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"} shadow-md`}>
                 <div className="flex items-center">
                   <img
-                    src={logo} // Use the imported logo
-                    alt="Logo" // Provide an alt text for accessibility
-                    className="h-8 mr-2" // Adjust height and margin as necessary
+                    src={logo} 
+                    alt=""
+                    className="h-8 mr-2" 
                   />
                   <h1
                     onClick={() => router.push("/")}
@@ -129,10 +129,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             Program agreement
                             </Button>
                             <Button onClick={() => window.open("/resume5.pdf")}>
-                            Student Behavior guidelines
-                            </Button>
-                            <Button onClick={() => window.open("/resume2.pdf")}>
-                            Medical Form
+                            Student behavior guidelines
                             </Button>
                             <Button onClick={() => window.open("/resume3.pdf")}>
                             Responsability Disclaimers
@@ -154,7 +151,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     Insurance Purchase
                   </Button>
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
                   type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
@@ -207,7 +204,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
                                 theme === "dark" ? "bg-slate-800" : "bg-white"
                               } shadow-md rounded-md`}
-                            >                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            >                             
+                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                             Registration Form  
                             </Button>
                             <Button onClick={() => window.open("/resume2.pdf")}>
@@ -220,10 +218,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             Program agreement
                             </Button>
                             <Button onClick={() => window.open("/resume5.pdf")}>
-                            Student Behavior guidelines
-                            </Button>
-                            <Button onClick={() => window.open("/resume2.pdf")}>
-                            Medical Form
+                            Student behavior guidelines
                             </Button>
                             <Button onClick={() => window.open("/resume3.pdf")}>
                             Responsability Disclaimers
@@ -245,7 +240,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     Insurance Purchase
                   </Button>
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
                   type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
@@ -260,9 +255,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       <div className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 laptop:p-0 ${theme === "dark" ? "bg-gray-800 text-white" : "bg-white text-black"} shadow-md`}>
       <div className="flex items-center">
         <img
-          src={logo} // Use the imported logo
-          alt="Logo" // Provide an alt text for accessibility
-          className="h-8 mr-2" // Adjust height and margin as necessary
+          src={logo} 
+          alt="" 
+          className="h-8 mr-2" 
         />
         <h1
           onClick={() => router.push("/")}
@@ -330,10 +325,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             Program agreement
                             </Button>
                             <Button onClick={() => window.open("/resume5.pdf")}>
-                            Student Behavior guidelines
-                            </Button>
-                            <Button onClick={() => window.open("/resume2.pdf")}>
-                            Medical Form
+                            student behavior guidelines
                             </Button>
                             <Button onClick={() => window.open("/resume3.pdf")}>
                             Responsability Disclaimers
@@ -355,7 +347,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     Insurance Purchase
                   </Button>
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
                   type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
@@ -419,7 +411,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             <Popover.Panel className={`absolute right-0 z-10 w-11/12 p-4 ${
                                 theme === "dark" ? "bg-slate-800" : "bg-white"
                               } shadow-md rounded-md`}
-                            >                             <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
+                            >                             
+                            <Button onClick={() => window.open("https://docs.google.com/forms/d/1UW-dl49k06SO7gaaonHfWPaUX1nZgyeolXq2QiZlzJA/edit")}>
                             Registration Form  
                             </Button>
                             <Button onClick={() => window.open("/resume2.pdf")}>
@@ -432,10 +425,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                             Program agreement
                             </Button>
                             <Button onClick={() => window.open("/resume5.pdf")}>
-                            Student Behavior guidelines
-                            </Button>
-                            <Button onClick={() => window.open("/resume2.pdf")}>
-                            Medical Form
+                            student behavior guidelines
                             </Button>
                             <Button onClick={() => window.open("/resume3.pdf")}>
                             Responsability Disclaimers
@@ -457,7 +447,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     Insurance Purchase
                   </Button>
-                  <Button onClick={handleWorkScroll}>Work</Button>
+                  <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
                   type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
                   >
