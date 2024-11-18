@@ -47,7 +47,7 @@ const Edit = () => {
           imageSrc:
             "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
 
-          url: "http://www.yeyafotografia.com/",
+          url: "/",
         },
       ],
     });
@@ -104,7 +104,7 @@ const Edit = () => {
         {
           id: uuidv4(),
           title: "New Link",
-          link: "http://www.yeyafotografia.com/",
+          link: "/",
         },
       ],
     });
@@ -178,7 +178,7 @@ const Edit = () => {
               onClick={() => setCurrentTabs("SERVICES")}
               type={currentTabs === "SERVICES" && "primary"}
             >
-              Services
+              Testimonials
             </Button>
             <Button
               onClick={() => setCurrentTabs("ABOUT")}

@@ -1,93 +1,59 @@
 ---
 date: '2022-07-08T11:50:54.000Z'
-title: Second Blog
-tagline: This is a Tagline If you want to add.
+title: Class of 2025 - Photo Album
+tagline: ''
 preview: >-
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-  when an unknown printer took a galley of type and scrambled it to make a type
-  specimen book.
+  In spring 2025, we explored Peru’s wonders—Machu Picchu, Cusco, and the
+  vibrant Andean culture—while creating unforgettable memories. This trip
+  brought us closer as friends, capturing laughter and adventure along the way.
+
+
+  Here’s a glimpse into the journey that defined our year!
 image: >-
-  https://images.unsplash.com/photo-1656427868828-79a829b92b2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80
+  https://plus.unsplash.com/premium_photo-1665972562901-475122c6f879?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxraWRzJTIwb24lMjBob2xpZGF5fGVufDB8MHwwfHx8MA%3D%3D
 ---
 
-# Heading One
+# Photos from the School Trip to Latin America
+An Unforgettable Journey captures the vibrant landscapes, cultural heritage, and memorable experiences from our school trip to Latin America. From bustling markets to serene natural wonders, these photos highlight the essence of our adventure. Take a walk through our lens as we revisit the most cherished moments.
 
-**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+## Exploring the Diversity of Latin America
+The school trip took us across multiple regions, each offering a unique perspective on the continent's history and culture. We learned about the ancient civilizations of the Mayans and Incas, explored colonial architecture, and experienced the warm hospitality of the locals.
 
-## This is Heading Two
+### Nature and Adventure Under the Latin Sun
+Latin America is a paradise for nature lovers. Our adventure included trekking through lush rainforests, exploring waterfalls, and marveling at the Andes Mountains. Every step brought us closer to the region's breathtaking biodiversity and landscapes.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+#### Capturing the Spirit of the Journey
+Capturing key highlights of the trip allowed us to reflect on the amazing experiences we shared as a group.
 
-### This is Heading Three with `inline code`
+##### Cultural Immersion Through Local Traditions
+We immersed ourselves in traditional dances, regional cuisines, and vibrant local festivals, creating unforgettable memories.
 
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Blockquote
+"Traveling—it leaves you speechless, then turns you into a storyteller."
+— Ibn Battuta
 
-#### This is Heading Four With Code Block
+## Highlights of the Trip
+Visiting the ancient ruins of Machu Picchu.
+Exploring the vibrant streets of Mexico City.
+Witnessing the majesty of Iguazu Falls.
+Sailing through the Galapagos Islands.
+## Moments Captured in Photos
+Colorful Market Scenes
+Bustling with activity, the markets gave us a taste of local life.
 
-```
+Friendship and Fun
+The joy of bonding with classmates and teachers under the open sky.
 
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
-
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
-
-```
-
-##### Heading Five Code With Max Height
-
-```
-
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
-
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
-
-# Auto-generated based on the server's hostname.
-# Set this to the URL used to access the Firezone Web UI.
-default['firezone']['external_url'] = 'https://firezone.example.com'
-
-# Specify the path to your SSL cert and private key.
-# If set to nil (default), a self-signed cert will be generated for you.
-default['firezone']['ssl']['certificate'] = '/path/to/cert.pem'
-default['firezone']['ssl']['certificate_key'] = '/path/to/key.pem'
-
-```
-
-## BLockquote
-
-> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-
-## Ordered List with horizontal line
-
-1. First item
-2. Second item
-3. Third item
-4. Fourth item
-
----
-
-## Unordered List With Horizontal line
-
-- First item
-- Second item
-- Third item
-- Fourth item
-
----
+Nature’s Majesty
+From sunrise over the Andes to sunsets on pristine beaches.
 
 ## Links
-
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+Testing the links Explore Latin America.
+See the full photo album Here.
 
 ## Images
 
-![An old rock in the desert](https://images.unsplash.com/photo-1654475677192-2d869348bb4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
+![An old rock in the desert](https://plus.unsplash.com/premium_photo-1665972562901-475122c6f879?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA1fHxraWRzJTIwb24lMjBob2xpZGF5fGVufDB8MHwwfHx8MA%3D%3D)
+
+
+![Kid running](https://images.unsplash.com/photo-1532341556711-1c37110eaaac?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fGtpZHMlMjBvbiUyMGhvbGlkYXl8ZW58MHwwfDB8fHww)
