@@ -9,24 +9,24 @@ const Footer = ({}) => {
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
           <div className="mt-10">
-          <h1 className="text-2xl text-bold">Martha Hayden</h1>
+          <h1 className="text-2xl text-bold">Martha</h1>
             <h1 className="text-1m tablet:text-1m laptop:text-1m laptopl:text-1m text-bold">
               President and Founder
             </h1>
             <h1 className="text-1m tablet:text-1m laptop:text-1m laptopl:text-1m text-bold">
-              Creating Ties US
+              Creating Ties
             </h1>
             <Button
-                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:..@gmail.com")}
                   >
               Get in touch
             </Button>
             <div className="mt-10">
-            1403 Barclay Boulevard
+            test
             </div>
-            Princeton, New Jersey 08540
+            test
             </div>
-          Cell: 609-665-0231
+          Cell: ...
         </div>
         <Socials />
       </div>
