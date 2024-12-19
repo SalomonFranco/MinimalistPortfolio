@@ -153,7 +153,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </Button>
                   <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
-                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:..@gmail.com")}
                   >
                   Contact us
                   </Button>
@@ -242,7 +242,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </Button>
                   <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
-                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:..@gmail.com")}
                   >
                   Contact us
                   </Button>
@@ -349,7 +349,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </Button>
                   <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
-                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:..@gmail.com")}
                   >
                   Contact us
                   </Button>
@@ -449,7 +449,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   </Button>
                   <Button onClick={handleWorkScroll}>Testimonials</Button>
                   <Button
-                  type="primary"  onClick={() => window.open("mailto:martha.creatingties@gmail.com")}
+                  type="primary"  onClick={() => window.open("mailto:..@gmail.com")}
                   >
                   Contact us
                   </Button>
