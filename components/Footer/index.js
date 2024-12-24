@@ -9,7 +9,7 @@ const Footer = ({}) => {
       <div className="mt-5 laptop:mt-40 p-2 laptop:p-0">
         <div>
           <div className="mt-10">
-          <h1 className="text-2xl text-bold">Martha</h1>
+          <h1 className="text-2xl text-bold">Martha Hayden</h1>
             <h1 className="text-1m tablet:text-1m laptop:text-1m laptopl:text-1m text-bold">
               President and Founder
             </h1>
@@ -22,11 +22,11 @@ const Footer = ({}) => {
               Get in touch
             </Button>
             <div className="mt-10">
-            test
+            E-mail: martha.creatingties@gmail.com
             </div>
-            test
+            E-mail: martha235@aol.com 
             </div>
-          Cell: ...
+          Phone Number: +16096650231
         </div>
         <Socials />
       </div>
