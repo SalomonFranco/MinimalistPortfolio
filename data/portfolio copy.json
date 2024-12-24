@@ -39,20 +39,6 @@
       "description": "Educational Tours",
       "imageSrc": "https://images.unsplash.com/photo-1530779443780-7499d18b7e66?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "url": ""
-    },
-    {
-      "id": "3",
-      "title": "Spain",
-      "description": "Educational Tours, Summer Camps & Sports camps.",
-      "imageSrc": "https://images.unsplash.com/photo-1558642084-fd07fae5282e?q=80&w=2836&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "url": ""
-    },
-    {
-      "id": "4",
-      "title": "Guatemala",
-      "description": "Community Service",
-      "imageSrc": "https://images.unsplash.com/photo-1700540564540-1352bbd3b165?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "url": ""
     }
   ],
   "testimonials": [
