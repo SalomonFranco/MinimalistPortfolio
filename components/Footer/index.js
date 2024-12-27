@@ -22,11 +22,14 @@ const Footer = ({}) => {
               Get in touch
             </Button>
             <div className="mt-10">
-            E-mail: martha.creatingties@gmail.com
+            US 1403 Barclay Boulevard  
+            <div>
+            Princeton,New Jersey 08540
             </div>
-            E-mail: martha235@aol.com 
+            Phone Number: +16096650231
             </div>
-          Phone Number: +16096650231
+            E-mail: martha235@aol.com & martha.creatingties@gmail.com
+            </div>
         </div>
         <Socials />
       </div>
